@@ -336,13 +336,13 @@ porosity0 = 0.1
 
   [bottom_roller]
     type = DirichletBC
-    variable = disp_x
+    variable = disp_y
     boundary = 'bottom'
     value = 0
   []
   [left_roller]
     type = DirichletBC
-    variable = disp_y
+    variable = disp_x
     boundary = 'left injection_area'
     value = 0
   []
